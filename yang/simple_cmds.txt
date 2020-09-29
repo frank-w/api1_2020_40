@@ -1,0 +1,3 @@
+pyang -f tree --tree-print-groupings A1.yang
+pyang -f tree --tree-print-groupings A2.yang
+pyang -f tree A1.yang A2.yang

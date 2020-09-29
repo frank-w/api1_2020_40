@@ -1,0 +1,15 @@
+module A2 {
+	namespace "urn:A2:1.0";
+	prefix "A2";
+	import A1 {prefix A1;}
+
+	uses A1:GA1;
+
+	augment "/CA1" {
+		leaf LA2999 {type empty;}
+	}
+
+	augment "/A1:LiA1" {
+    	leaf LA2888 {type empty;}
+	}
+}

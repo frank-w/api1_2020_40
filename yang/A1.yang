@@ -1,0 +1,19 @@
+module A1 {
+    namespace "urn:A1:1.0";
+    prefix "A1";
+
+    grouping GA1 {  
+    	leaf LA11 {type empty;}
+    	container CA1 {
+            leaf LA12 {type empty;}
+        }
+    }
+	
+	list LiA1{
+       key "LA13 LA15";
+       leaf LA13 {type string;}
+       leaf LA15 {type string;}
+	}
+
+	leaf LA14 {type empty;}
+}

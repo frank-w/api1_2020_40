@@ -1,0 +1,5 @@
+pyang -f tree --tree-depth=3 --lax-quote-checks openconfig-bgp.yang
+pyang -f jstree openconfig-bgp.yang -o tree.html
+pyang -f sample-xml-skeleton openconfig-bgp.yang -o model.xml
+pyang -f sample-xml-skeleton --sample-xml-skeleton-doctype=config openconfig-bgp.yang -o model2.xml
+pyang -f sample-xml-skeleton --sample-xml-skeleton-doctype=config --sample-xml-skeleton-defaults openconfig-bgp.yang -o model3.xml

@@ -1,0 +1,12 @@
+module B1 {
+	  namespace "urn:B1:1.0";
+	  prefix "B1";
+
+	  container CB1 {
+
+                leaf LB1 { type empty;}
+
+	  }
+
+
+}

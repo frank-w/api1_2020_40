@@ -1,0 +1,12 @@
+module A0_simple {
+    namespace "urn:A0:1.0";
+    prefix "A0";
+	
+	list ListA{
+       key "LeafA";
+       leaf LeafA {type string;}
+       leaf NextLeafA {type string;}
+	}
+
+	leaf FinalLeafA {type empty;}
+}

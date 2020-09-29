@@ -1,0 +1,19 @@
+module B2 {
+	  namespace "urn:B2:1.0";
+	  prefix "B2";
+
+	  import B1 {prefix "B1";}
+
+	  container CB2 {
+
+                leaf LB2 { type empty;}
+
+	  }
+
+   augment "/B1:CB1" {
+
+           leaf LB22 {type empty;}
+
+   }
+
+}
